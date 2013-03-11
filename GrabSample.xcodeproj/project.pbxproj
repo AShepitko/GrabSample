@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C603445716EE588000126E36 /* GrabSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C603444A16EE588000126E36 /* GrabSample-Info.plist */; };
+		C603445816EE588000126E36 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = C603444B16EE588000126E36 /* Image.png */; };
+		C603445916EE588000126E36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C603444C16EE588000126E36 /* AppDelegate.m */; };
+		C603445A16EE588000126E36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C603444D16EE588000126E36 /* main.m */; };
+		C603445B16EE588000126E36 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C603444F16EE588000126E36 /* Credits.rtf */; };
+		C603445C16EE588000126E36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C603445116EE588000126E36 /* InfoPlist.strings */; };
+		C603445D16EE588000126E36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C603445316EE588000126E36 /* MainMenu.xib */; };
+		C65C8CE015EF62230059F4CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65C8CDF15EF62230059F4CC /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C603444A16EE588000126E36 /* GrabSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GrabSample-Info.plist"; path = "GrabSample/GrabSample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C603444B16EE588000126E36 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = GrabSample/Image.png; sourceTree = SOURCE_ROOT; };
+		C603444C16EE588000126E36 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GrabSample/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		C603444D16EE588000126E36 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GrabSample/main.m; sourceTree = SOURCE_ROOT; };
+		C603445016EE588000126E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		C603445216EE588000126E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C603445416EE588000126E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		C603445516EE588000126E36 /* GrabSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GrabSample-Prefix.pch"; path = "GrabSample/GrabSample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		C603445616EE588000126E36 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GrabSample/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		C65C8CDB15EF62230059F4CC /* GrabSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65C8CDF15EF62230059F4CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C65C8CE215EF62230059F4CC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C65C8CE315EF62230059F4CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C65C8CE415EF62230059F4CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65C8CD815EF62230059F4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65C8CE015EF62230059F4CC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C65C8CD015EF62230059F4CC = {
+			isa = PBXGroup;
+			children = (
+				C65C8CE515EF62230059F4CC /* GrabSample */,
+				C65C8CDE15EF62230059F4CC /* Frameworks */,
+				C65C8CDC15EF62230059F4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C65C8CDC15EF62230059F4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65C8CDB15EF62230059F4CC /* GrabSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65C8CDE15EF62230059F4CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C65C8CDF15EF62230059F4CC /* Cocoa.framework */,
+				C65C8CE115EF62230059F4CC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65C8CE115EF62230059F4CC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C65C8CE215EF62230059F4CC /* AppKit.framework */,
+				C65C8CE315EF62230059F4CC /* CoreData.framework */,
+				C65C8CE415EF62230059F4CC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C65C8CE515EF62230059F4CC /* GrabSample */ = {
+			isa = PBXGroup;
+			children = (
+				C603445316EE588000126E36 /* MainMenu.xib */,
+				C603444C16EE588000126E36 /* AppDelegate.m */,
+				C603445616EE588000126E36 /* AppDelegate.h */,
+				C65C8CE615EF62230059F4CC /* Supporting Files */,
+			);
+			name = GrabSample;
+			path = GrabSample;
+			sourceTree = "<group>";
+		};
+		C65C8CE615EF62230059F4CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C603444A16EE588000126E36 /* GrabSample-Info.plist */,
+				C603444B16EE588000126E36 /* Image.png */,
+				C603444D16EE588000126E36 /* main.m */,
+				C603444F16EE588000126E36 /* Credits.rtf */,
+				C603445116EE588000126E36 /* InfoPlist.strings */,
+				C603445516EE588000126E36 /* GrabSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65C8CDA15EF62230059F4CC /* GrabSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65C8CF915EF62240059F4CC /* Build configuration list for PBXNativeTarget "GrabSample" */;
+			buildPhases = (
+				C65C8CD715EF62230059F4CC /* Sources */,
+				C65C8CD815EF62230059F4CC /* Frameworks */,
+				C65C8CD915EF62230059F4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabSample;
+			productName = GrabSample;
+			productReference = C65C8CDB15EF62230059F4CC /* GrabSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C65C8CD215EF62230059F4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Alexey Shepitko";
+			};
+			buildConfigurationList = C65C8CD515EF62230059F4CC /* Build configuration list for PBXProject "GrabSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C65C8CD015EF62230059F4CC;
+			productRefGroup = C65C8CDC15EF62230059F4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65C8CDA15EF62230059F4CC /* GrabSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65C8CD915EF62230059F4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C603445716EE588000126E36 /* GrabSample-Info.plist in Resources */,
+				C603445816EE588000126E36 /* Image.png in Resources */,
+				C603445B16EE588000126E36 /* Credits.rtf in Resources */,
+				C603445C16EE588000126E36 /* InfoPlist.strings in Resources */,
+				C603445D16EE588000126E36 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65C8CD715EF62230059F4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C603445916EE588000126E36 /* AppDelegate.m in Sources */,
+				C603445A16EE588000126E36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C603444F16EE588000126E36 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C603445016EE588000126E36 /* en */,
+			);
+			name = Credits.rtf;
+			path = ../GrabSample/en.lproj;
+			sourceTree = "<group>";
+		};
+		C603445116EE588000126E36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C603445216EE588000126E36 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ../GrabSample/en.lproj;
+			sourceTree = "<group>";
+		};
+		C603445316EE588000126E36 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C603445416EE588000126E36 /* en */,
+			);
+			name = MainMenu.xib;
+			path = ../GrabSample/en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C65C8CF715EF62240059F4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C65C8CF815EF62240059F4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C65C8CFA15EF62240059F4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrabSample/GrabSample-Prefix.pch";
+				INFOPLIST_FILE = "GrabSample/GrabSample-Info.plist";
+				PRODUCT_NAME = GrabSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C65C8CFB15EF62240059F4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrabSample/GrabSample-Prefix.pch";
+				INFOPLIST_FILE = "GrabSample/GrabSample-Info.plist";
+				PRODUCT_NAME = GrabSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65C8CD515EF62230059F4CC /* Build configuration list for PBXProject "GrabSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65C8CF715EF62240059F4CC /* Debug */,
+				C65C8CF815EF62240059F4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65C8CF915EF62240059F4CC /* Build configuration list for PBXNativeTarget "GrabSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65C8CFA15EF62240059F4CC /* Debug */,
+				C65C8CFB15EF62240059F4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C65C8CD215EF62230059F4CC /* Project object */;
+}
